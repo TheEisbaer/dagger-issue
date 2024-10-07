@@ -2,8 +2,10 @@
 # yarn lockfile v1
 
 
-"@dagger.io/dagger@./sdk":
-  version "0.0.0"
+"@dagger.io/dagger@^0.13.3":
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/@dagger.io/dagger/-/dagger-0.13.3.tgz#26216c7a39c824cc67996eb4c65907d9b0eb4230"
+  integrity sha512-Wu4o4eocYYZiOuergj35qKBt0ndp11EaPE9NcNY7rXH7Dq+a8Fc1ZEhMjWWo+L5TlJk9SJ70f+etmTNE5nB2Rg==
   dependencies:
     "@grpc/grpc-js" "^1.11.1"
     "@lifeomic/axios-fetch" "^3.1.0"
