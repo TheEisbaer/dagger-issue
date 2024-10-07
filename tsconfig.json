@@ -1,29 +1,11 @@
 {
-    "ts-node": {
-        "esm": true,
-    },
-    "compilerOptions": {
-        "outDir": "dist",
-        "lib": [
-            "es2020"
-        ],
-        "target": "ESNext",
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "types": [
-            "node"
-        ],
-        "module": "ESNext",
-        "moduleResolution": "node",
-        "strict": true,
-        "noImplicitReturns": true,
-        "noImplicitOverride": true,
-        "noFallthroughCasesInSwitch": true,
-        "noEmitOnError": true,
-        "allowUnusedLabels": true,
-    },
-    "include": [
-        "**/*.mts",
-        "**/*.ts"
-    ]
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "paths": {
+      "@dagger.io/dagger": ["./sdk"],
+      "@dagger.io/dagger/telemetry": ["./sdk/telemetry"]
+    }
+  }
 }
