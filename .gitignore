@@ -1,0 +1,5 @@
+.tsimp
+.env.local
+node_modules
+Test/.idea
+Test/obj
